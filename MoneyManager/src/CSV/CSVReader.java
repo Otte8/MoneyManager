@@ -7,14 +7,15 @@ import Exceptions.TransactionCSVWrongFormatException;
 import Transaction.Transaction;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class CSVReader
 {
-    private String csvAccountsFile = "/home/kristian/Documents/csv/accounts.csv";
-    private String csvTransactionsFile = "/home/kristian/Documents/csv/transactions.csv";
+    private String csvAccountsFile = "CSV/accounts.csv";
+    private String csvTransactionsFile = "CSV/transactions.csv";
     private String line = "";
     private String accountDescription = "Balance,Name,Description";
     private String transactionDescription = "Old Balance,New Balance,Amount,Name,Description,Account";
