@@ -16,6 +16,7 @@ public class Main extends Application
 
         Scene scene = new Scene(fxmlLoader.load(), 1280, 720);
 
+        primaryStage.setTitle("MoneyManager");
         primaryStage.setScene(scene);
         primaryStage.show();
 //        Parent root = FXMLLoader.load(getClass().getResource("UI/SelectAccount.fxml"));
