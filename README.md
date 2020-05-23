@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Timestamper
+  MoneyManager
   <br>
 </h1>
 
