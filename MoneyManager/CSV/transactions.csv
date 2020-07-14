@@ -1,4 +1,4 @@
 Old Balance,New Balance,Amount,Name,Description,Account
-5150,5000,50,Durum,Durum at Sara's,TestAccount1
-5050,5000,50,Pizza,Pizza at Sara's,TestAccount1
+5150,5100,-50,Durum,Durum at Sara's,TestAccount1
+5100,5050,-50,Pizza,Pizza at Sara's,TestAccount1
 10,20000,19990,Pay,Pay from work,TestAccount2
