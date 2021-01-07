@@ -17,8 +17,8 @@ public class CSVReader
     private String csvAccountsFile = "CSV/accounts.csv";
     private String csvTransactionsFile = "CSV/transactions.csv";
     private String line = "";
-    private String accountDescription = "Balance,Name,Description";
-    private String transactionDescription = "Old Balance,New Balance,Amount,Name,Description,Account";
+    private final String accountDescription = "Balance,Name,Description";
+    private final String transactionDescription = "Date,Balance,Amount,Description,Category,Account";
     private String[] csvInfo;
     private ArrayList<Account> accounts = new ArrayList<>();
     private ArrayList<Transaction> transactions = new ArrayList<>();
@@ -33,7 +33,7 @@ public class CSVReader
             }
             while ((line = reader.readLine()) != null)
             {
-                csvInfo = line.split(",");
+                csvInfo = line.split("\",\"");
                 accounts.add(new Account(Integer.parseInt(csvInfo[0]), csvInfo[1], csvInfo[2]));
             }
         }

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MoneyManager.dir/MoneyManager_autogen/mocs_compilation.cpp.o CMakeFiles/MoneyManager.dir/main.cpp.o CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o  -o MoneyManager  /usr/lib/libQt5Widgets.so.5.15.2 /usr/lib/libQt5Gui.so.5.15.2 /usr/lib/libQt5Core.so.5.15.2 

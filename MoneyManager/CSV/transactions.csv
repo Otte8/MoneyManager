@@ -1,4 +1,4 @@
-Old Balance,New Balance,Amount,Name,Description,Account
-5150,5100,-50,Durum,Durum at Sara's,TestAccount1
-5100,5050,-50,Pizza,Pizza at Sara's,TestAccount1
-10,20000,19990,Pay,Pay from work,TestAccount2
+Date,Balance,Amount,Description,Category,Account
+"04-01-2021","5100","-50","Visa/Dankort Just Eat, London","Mad","TestAccount1"
+"04-01-2021","5050","-50","Visa/Dankort Just Eat, London","Mad","TestAccount1"
+"04-01-2021","20000","19990","Boligstøtte","Indkomst","TestAccount2"
