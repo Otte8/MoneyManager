@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ApplicationWindow</class>
+ <widget class="QWidget" name="ApplicationWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ApplicationWindow</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="pageWelcome">
+    <widget class="QLabel" name="labelWelcome">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>180</y>
+       <width>531</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>30</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Welcome to MoneyManager</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonNext">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>520</y>
+       <width>88</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Next</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="pageAccounts">
+    <widget class="QLabel" name="labelAccounts">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>60</y>
+       <width>58</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Accounts</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonAccountTest">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>220</y>
+       <width>88</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>account 1</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="pageAccountDetails">
+    <widget class="QPushButton" name="buttonViewTransaction">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>430</y>
+       <width>121</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>View transaction</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelAccountDetails">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>200</y>
+       <width>131</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>This is a test account</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="pageTransactions">
+    <widget class="QLabel" name="labelTransactions">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>20</y>
+       <width>131</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>This is a transaction</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableTransactions">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>80</y>
+       <width>1150</width>
+       <height>615</height>
+      </rect>
+     </property>
+     <property name="showGrid">
+      <bool>true</bool>
+     </property>
+     <property name="sortingEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

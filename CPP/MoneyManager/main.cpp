@@ -1,10 +1,9 @@
-#include "Headers/welcomewindow.h"
-
 #include <QApplication>
+#include "Forms/applicationwindow.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
-    WelcomeWindow w;
+    ApplicationWindow w;
     w.show();
     return QApplication::exec();
 }

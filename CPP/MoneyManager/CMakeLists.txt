@@ -10,7 +10,7 @@ set(QT_VERSION 5)
 set(REQUIRED_LIBS Core Gui Widgets)
 set(REQUIRED_LIBS_QUALIFIED Qt5::Core Qt5::Gui Qt5::Widgets)
 
-add_executable(${PROJECT_NAME} main.cpp Sources/welcomewindow.cpp Headers/welcomewindow.h Forms/welcomewindow.ui)
+add_executable(${PROJECT_NAME} main.cpp Forms/applicationwindow.cpp Forms/applicationwindow.h Forms/applicationwindow.ui src/CSV/ReadCSV.cpp src/CSV/ReadCSV.h src/CSV/WriteCSV.cpp src/CSV/WriteCSV.h src/CSV/ImportCSV.cpp src/CSV/ImportCSV.h src/Account/Account.cpp src/Account/Account.h src/Account/Transaction.cpp src/Account/Transaction.h src/Account/Category.h)
 
 if (NOT CMAKE_PREFIX_PATH)
     message(WARNING "CMAKE_PREFIX_PATH is not defined, you may need to set it "

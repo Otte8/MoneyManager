@@ -110,19 +110,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/welcomewindow.ui">
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/applicationwindow.cpp">
 			<Option target="MoneyManager"/>
 		</Unit>
-		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Headers/welcomewindow.h">
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/applicationwindow.h">
 			<Option target="MoneyManager"/>
 		</Unit>
-		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Sources/welcomewindow.cpp">
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/applicationwindow.ui">
 			<Option target="MoneyManager"/>
 		</Unit>
 		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/MoneyManager_autogen/mocs_compilation.cpp">
 			<Option target="MoneyManager"/>
 		</Unit>
 		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/main.cpp">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Account.cpp">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Account.h">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Category.h">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Transaction.cpp">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Transaction.h">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ImportCSV.cpp">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ImportCSV.h">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ReadCSV.cpp">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ReadCSV.h">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/WriteCSV.cpp">
+			<Option target="MoneyManager"/>
+		</Unit>
+		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/WriteCSV.h">
 			<Option target="MoneyManager"/>
 		</Unit>
 		<Unit filename="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/CMakeLists.txt">

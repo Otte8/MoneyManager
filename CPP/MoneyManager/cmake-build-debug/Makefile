@@ -156,6 +156,33 @@ MoneyManager_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager_autogen.dir/build.make CMakeFiles/MoneyManager_autogen.dir/build
 .PHONY : MoneyManager_autogen/fast
 
+Forms/applicationwindow.o: Forms/applicationwindow.cpp.o
+
+.PHONY : Forms/applicationwindow.o
+
+# target to build an object file
+Forms/applicationwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o
+.PHONY : Forms/applicationwindow.cpp.o
+
+Forms/applicationwindow.i: Forms/applicationwindow.cpp.i
+
+.PHONY : Forms/applicationwindow.i
+
+# target to preprocess a source file
+Forms/applicationwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.i
+.PHONY : Forms/applicationwindow.cpp.i
+
+Forms/applicationwindow.s: Forms/applicationwindow.cpp.s
+
+.PHONY : Forms/applicationwindow.s
+
+# target to generate assembly for a file
+Forms/applicationwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.s
+.PHONY : Forms/applicationwindow.cpp.s
+
 MoneyManager_autogen/mocs_compilation.o: MoneyManager_autogen/mocs_compilation.cpp.o
 
 .PHONY : MoneyManager_autogen/mocs_compilation.o
@@ -182,33 +209,6 @@ MoneyManager_autogen/mocs_compilation.s: MoneyManager_autogen/mocs_compilation.c
 MoneyManager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/MoneyManager_autogen/mocs_compilation.cpp.s
 .PHONY : MoneyManager_autogen/mocs_compilation.cpp.s
-
-Sources/welcomewindow.o: Sources/welcomewindow.cpp.o
-
-.PHONY : Sources/welcomewindow.o
-
-# target to build an object file
-Sources/welcomewindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o
-.PHONY : Sources/welcomewindow.cpp.o
-
-Sources/welcomewindow.i: Sources/welcomewindow.cpp.i
-
-.PHONY : Sources/welcomewindow.i
-
-# target to preprocess a source file
-Sources/welcomewindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.i
-.PHONY : Sources/welcomewindow.cpp.i
-
-Sources/welcomewindow.s: Sources/welcomewindow.cpp.s
-
-.PHONY : Sources/welcomewindow.s
-
-# target to generate assembly for a file
-Sources/welcomewindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.s
-.PHONY : Sources/welcomewindow.cpp.s
 
 main.o: main.cpp.o
 
@@ -237,6 +237,141 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Account/Account.o: src/Account/Account.cpp.o
+
+.PHONY : src/Account/Account.o
+
+# target to build an object file
+src/Account/Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o
+.PHONY : src/Account/Account.cpp.o
+
+src/Account/Account.i: src/Account/Account.cpp.i
+
+.PHONY : src/Account/Account.i
+
+# target to preprocess a source file
+src/Account/Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.i
+.PHONY : src/Account/Account.cpp.i
+
+src/Account/Account.s: src/Account/Account.cpp.s
+
+.PHONY : src/Account/Account.s
+
+# target to generate assembly for a file
+src/Account/Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.s
+.PHONY : src/Account/Account.cpp.s
+
+src/Account/Transaction.o: src/Account/Transaction.cpp.o
+
+.PHONY : src/Account/Transaction.o
+
+# target to build an object file
+src/Account/Transaction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o
+.PHONY : src/Account/Transaction.cpp.o
+
+src/Account/Transaction.i: src/Account/Transaction.cpp.i
+
+.PHONY : src/Account/Transaction.i
+
+# target to preprocess a source file
+src/Account/Transaction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.i
+.PHONY : src/Account/Transaction.cpp.i
+
+src/Account/Transaction.s: src/Account/Transaction.cpp.s
+
+.PHONY : src/Account/Transaction.s
+
+# target to generate assembly for a file
+src/Account/Transaction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.s
+.PHONY : src/Account/Transaction.cpp.s
+
+src/CSV/ImportCSV.o: src/CSV/ImportCSV.cpp.o
+
+.PHONY : src/CSV/ImportCSV.o
+
+# target to build an object file
+src/CSV/ImportCSV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o
+.PHONY : src/CSV/ImportCSV.cpp.o
+
+src/CSV/ImportCSV.i: src/CSV/ImportCSV.cpp.i
+
+.PHONY : src/CSV/ImportCSV.i
+
+# target to preprocess a source file
+src/CSV/ImportCSV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.i
+.PHONY : src/CSV/ImportCSV.cpp.i
+
+src/CSV/ImportCSV.s: src/CSV/ImportCSV.cpp.s
+
+.PHONY : src/CSV/ImportCSV.s
+
+# target to generate assembly for a file
+src/CSV/ImportCSV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.s
+.PHONY : src/CSV/ImportCSV.cpp.s
+
+src/CSV/ReadCSV.o: src/CSV/ReadCSV.cpp.o
+
+.PHONY : src/CSV/ReadCSV.o
+
+# target to build an object file
+src/CSV/ReadCSV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o
+.PHONY : src/CSV/ReadCSV.cpp.o
+
+src/CSV/ReadCSV.i: src/CSV/ReadCSV.cpp.i
+
+.PHONY : src/CSV/ReadCSV.i
+
+# target to preprocess a source file
+src/CSV/ReadCSV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.i
+.PHONY : src/CSV/ReadCSV.cpp.i
+
+src/CSV/ReadCSV.s: src/CSV/ReadCSV.cpp.s
+
+.PHONY : src/CSV/ReadCSV.s
+
+# target to generate assembly for a file
+src/CSV/ReadCSV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.s
+.PHONY : src/CSV/ReadCSV.cpp.s
+
+src/CSV/WriteCSV.o: src/CSV/WriteCSV.cpp.o
+
+.PHONY : src/CSV/WriteCSV.o
+
+# target to build an object file
+src/CSV/WriteCSV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o
+.PHONY : src/CSV/WriteCSV.cpp.o
+
+src/CSV/WriteCSV.i: src/CSV/WriteCSV.cpp.i
+
+.PHONY : src/CSV/WriteCSV.i
+
+# target to preprocess a source file
+src/CSV/WriteCSV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.i
+.PHONY : src/CSV/WriteCSV.cpp.i
+
+src/CSV/WriteCSV.s: src/CSV/WriteCSV.cpp.s
+
+.PHONY : src/CSV/WriteCSV.s
+
+# target to generate assembly for a file
+src/CSV/WriteCSV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoneyManager.dir/build.make CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.s
+.PHONY : src/CSV/WriteCSV.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,15 +382,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MoneyManager_autogen"
 	@echo "... MoneyManager"
+	@echo "... Forms/applicationwindow.o"
+	@echo "... Forms/applicationwindow.i"
+	@echo "... Forms/applicationwindow.s"
 	@echo "... MoneyManager_autogen/mocs_compilation.o"
 	@echo "... MoneyManager_autogen/mocs_compilation.i"
 	@echo "... MoneyManager_autogen/mocs_compilation.s"
-	@echo "... Sources/welcomewindow.o"
-	@echo "... Sources/welcomewindow.i"
-	@echo "... Sources/welcomewindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Account/Account.o"
+	@echo "... src/Account/Account.i"
+	@echo "... src/Account/Account.s"
+	@echo "... src/Account/Transaction.o"
+	@echo "... src/Account/Transaction.i"
+	@echo "... src/Account/Transaction.s"
+	@echo "... src/CSV/ImportCSV.o"
+	@echo "... src/CSV/ImportCSV.i"
+	@echo "... src/CSV/ImportCSV.s"
+	@echo "... src/CSV/ReadCSV.o"
+	@echo "... src/CSV/ReadCSV.i"
+	@echo "... src/CSV/ReadCSV.s"
+	@echo "... src/CSV/WriteCSV.o"
+	@echo "... src/CSV/WriteCSV.i"
+	@echo "... src/CSV/WriteCSV.s"
 .PHONY : help
 
 

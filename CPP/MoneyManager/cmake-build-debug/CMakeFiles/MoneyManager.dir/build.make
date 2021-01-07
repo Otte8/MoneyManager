@@ -103,37 +103,112 @@ CMakeFiles/MoneyManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/main.cpp" -o CMakeFiles/MoneyManager.dir/main.cpp.s
 
-CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
-CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o: ../Sources/welcomewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Sources/welcomewindow.cpp"
+CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
+CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o: ../Forms/applicationwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/applicationwindow.cpp"
 
-CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Sources/welcomewindow.cpp" > CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.i
+CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/applicationwindow.cpp" > CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.i
 
-CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Sources/welcomewindow.cpp" -o CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.s
+CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/Forms/applicationwindow.cpp" -o CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.s
+
+CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
+CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o: ../src/CSV/ReadCSV.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ReadCSV.cpp"
+
+CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ReadCSV.cpp" > CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.i
+
+CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ReadCSV.cpp" -o CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.s
+
+CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
+CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o: ../src/CSV/WriteCSV.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/WriteCSV.cpp"
+
+CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/WriteCSV.cpp" > CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.i
+
+CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/WriteCSV.cpp" -o CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.s
+
+CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
+CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o: ../src/CSV/ImportCSV.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ImportCSV.cpp"
+
+CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ImportCSV.cpp" > CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.i
+
+CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/CSV/ImportCSV.cpp" -o CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.s
+
+CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
+CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o: ../src/Account/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Account.cpp"
+
+CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Account.cpp" > CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.i
+
+CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Account.cpp" -o CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.s
+
+CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o: CMakeFiles/MoneyManager.dir/flags.make
+CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o: ../src/Account/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o -c "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Transaction.cpp"
+
+CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Transaction.cpp" > CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.i
+
+CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/src/Account/Transaction.cpp" -o CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.s
 
 # Object files for target MoneyManager
 MoneyManager_OBJECTS = \
 "CMakeFiles/MoneyManager.dir/MoneyManager_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/MoneyManager.dir/main.cpp.o" \
-"CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o"
+"CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o" \
+"CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o" \
+"CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o" \
+"CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o" \
+"CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o" \
+"CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o"
 
 # External object files for target MoneyManager
 MoneyManager_EXTERNAL_OBJECTS =
 
 MoneyManager: CMakeFiles/MoneyManager.dir/MoneyManager_autogen/mocs_compilation.cpp.o
 MoneyManager: CMakeFiles/MoneyManager.dir/main.cpp.o
-MoneyManager: CMakeFiles/MoneyManager.dir/Sources/welcomewindow.cpp.o
+MoneyManager: CMakeFiles/MoneyManager.dir/Forms/applicationwindow.cpp.o
+MoneyManager: CMakeFiles/MoneyManager.dir/src/CSV/ReadCSV.cpp.o
+MoneyManager: CMakeFiles/MoneyManager.dir/src/CSV/WriteCSV.cpp.o
+MoneyManager: CMakeFiles/MoneyManager.dir/src/CSV/ImportCSV.cpp.o
+MoneyManager: CMakeFiles/MoneyManager.dir/src/Account/Account.cpp.o
+MoneyManager: CMakeFiles/MoneyManager.dir/src/Account/Transaction.cpp.o
 MoneyManager: CMakeFiles/MoneyManager.dir/build.make
 MoneyManager: /usr/lib/libQt5Widgets.so.5.15.2
 MoneyManager: /usr/lib/libQt5Gui.so.5.15.2
 MoneyManager: /usr/lib/libQt5Core.so.5.15.2
 MoneyManager: CMakeFiles/MoneyManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MoneyManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable MoneyManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MoneyManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
