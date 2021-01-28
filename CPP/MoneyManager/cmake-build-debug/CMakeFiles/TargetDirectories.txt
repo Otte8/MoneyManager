@@ -1,4 +1,0 @@
-/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles/MoneyManager.dir
-/home/otte/Documents/Git Repos/MoneyManager/CPP/MoneyManager/cmake-build-debug/CMakeFiles/MoneyManager_autogen.dir
