@@ -1,4 +1,3 @@
-# IntelliJ IDEA Files
-MoneyManager/.idea/
-MoneyManager/out/
-MoneyManager/MoneyManager.iml
+# CLion Files
+.idea/
+cmake-build-debug/
