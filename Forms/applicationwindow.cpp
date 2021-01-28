@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <QTableWidget>
+#include <QPushButton>
 #include "applicationwindow.h"
 #include "ui_applicationwindow.h"
 #include "../src/Account/Account.h"
@@ -24,6 +25,7 @@ ApplicationWindow::ApplicationWindow(QWidget *parent) :
     auto buttonViewTransaction = ApplicationWindow::findChild<QPushButton *>("buttonViewTransaction");
     connect(buttonViewTransaction, SIGNAL(released()), this, SLOT(TransactionButtonPressed()));
     auto tableTransactions = ApplicationWindow::findChild<QTableWidget *>("tableTransactions");
+    tableTransactions->setEditTriggers(QAbstractItemView::NoEditTriggers);
     tableTransactions->setColumnWidth(0, 140);
     tableTransactions->setColumnWidth(1, 695);
     tableTransactions->setColumnWidth(2, 140);
@@ -34,7 +36,7 @@ ApplicationWindow::ApplicationWindow(QWidget *parent) :
 
     auto account = new Account(5, "ja", "jjo");
     tableTransactions->setRowCount(10);
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < tableTransactions->rowCount(); i++)
     {
         auto transaction = new Transaction(i+1, 1, "04-01-2021", "Yes", income);
 
